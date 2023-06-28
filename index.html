@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio id ="myAudio" src="SongCelebration.mp3" loop="loop"></audio>
+
+
+    <div class="header">   
+    <h1>Raymour & Flanigan Furniture Store</h1>
+    </div>
+
+
+    <div class="styleButton"><button id="myButton"><img src="iconPlay.png" alt="Play Button"></button></div>
+
+
+    <div class="time">
+
+        <div class="furniture">
+            <div class="block">
+                <h4 class="days"></h4>
+                <h3>DAYS</h3>
+            </div>
+        </div>
+
+        <div class="furniture">
+            <div class="block">
+                <h4 class="hours"></h4>
+                <h3>HOURS</h3>
+            </div>
+        </div>
+
+        <div class="furniture">
+            <div class="block">
+                <h4 class="minutes"></h4>
+                <h3>MINUTES</h3>
+            </div>
+        </div>
+
+        <div class="furniture">
+            <div class="block">
+                <h4 class="seconds"></h4>
+                <h3>SECONDS</h3>
+            </div>
+        </div>
+    </div>
+
+<!-- 
+/////////////////////////////////////////////////////////////////////////slides -->
+
+<div class="container">
+    <div class=" item one selected">
+        <h4 class="shop">Berta</h4>
+        <p class="par">interchangeable sectional sofa-bed with storage</p>
+        <p class="price">5000$</p>
+    </div>
+
+    <div class="item two">
+        <h4 class="shop">Belgravia</h4>
+        <p class="par">sofa-bed with memory foam mattress</p>
+        <p class="price">2000$</p>
+    </div>
+
+    <div class="item three">
+        <h4 class="shop">Foodien</h4>
+        <p class="par">recycled teak end table</p>
+        <p class="price">1000$</p>
+    </div>
+
+    <div class="item four">
+        <h4 class="shop">Family</h4>
+        <p class="par">acacia wood dining table</p>
+        <p class="price">1000$</p>
+    </div>
+
+    <div class="item five">
+        <h4 class="shop">Shean</h4>
+        <p class="par">tufted velvet sofa-bed</p>
+        <p class="price">2100$</p>
+    </div>
+
+<div class="item six">
+        <h4 class="shop">Rabia</h4>
+        <p class="par">tufted upholstered wingback queen size bed with storage</p>
+        <p class="price">5000$</p>
+    </div>
+</div>
+<div class="header">
+    <h3>Send us a message</h3>
+</div>
+
+<form
+action="https://formspree.io/f/xeqnkqja"
+method="POST">
+
+<div class="header">
+<label>
+    Your email:
+    <input type="email" class="text-input" name="email" placeholder="Your email...">
+</label>
+</div>
+
+<div class="header">
+    <label>
+    Your message:
+    <textarea  class="text-input" name="message" placeholder="Type your message..."></textarea>
+</label>
+</div>
+
+<br>
+<!-- your other form fields go here -->
+<div class="header"> 
+    <button class="btn" type="submit">Send</button>
+</div>
+</form>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
